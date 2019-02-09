@@ -1,0 +1,7 @@
+To upstream
+Step-1
+git add <fileName>
+Step-2
+git commit -m "<I have added a file>"
+Step-3
+git push
