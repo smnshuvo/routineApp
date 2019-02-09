@@ -19,3 +19,14 @@ git pull
 To check
 
 git status
+
+
+==================
+
+Upload 
+git add -A
+git commit -m "your message"
+git push
+
+Download
+git pull
