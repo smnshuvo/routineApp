@@ -24,6 +24,16 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
 	
+	<script>
+	function loginClicked(){
+	
+	var id = document.getElementById("userID").value;
+	var pass = document.getElementById("password").value;
+	
+	alert("Logged in as " + id + "\n" + "Password = " + pass);
+	}
+	
+	</script>
 	
 	
 </head>
@@ -40,19 +50,22 @@
                     <span class="login100-form-avatar">
 						<h1> to the class routine </h1>
 					</span>
-
+						
+					
+						
+						
                     <div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate="Enter username">
-                        <input class="input100" type="text" name="username" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3,}" title="Example 181-35-2321">
+                        <input class="input100" type="text" name="username" id="userID" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3,}" title="Example 181-35-2321">
                         <span class="focus-input100" data-placeholder="Student id"></span>
                     </div>
 
                     <div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
-                        <input class="input100" type="password" name="pass">
+                        <input class="input100" type="password" name="pass" id ="password">
                         <span class="focus-input100" data-placeholder="Password"></span>
                     </div>
 
                     <div class="container-login100-form-btn">
-                        <button class="login100-form-btn">
+                        <button class="login100-form-btn" onclick="loginClicked();">
                             Login
                         </button>
                     </div>
