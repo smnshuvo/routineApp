@@ -1,7 +1,11 @@
 <?php
 include ('connect.php');
-$sql = "SELECT * FROM userDatabase";
-$result = mysql_query($cnct,$sql);
-echo $result;
+$sql = "SELECT * FROM userdatabase";
+$result = mysqli_query($cnct,$sql);
+$print = "";
+while ($row = mysqli_fetch_assoc($result)){
+	$print.= $row['Serial'];
+}
+echo $print;
 
 ?>
