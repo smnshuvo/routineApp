@@ -92,6 +92,17 @@ border:2px solid black;
 	transition:background 1s;
 	transition:color 2s;
 }
+
+.time{
+	color:#5F6A6A;
+	background:#D7DBDD;
+	border: 1px solid black;
+	height: 50px; 
+	min-width: 100px;
+	text-align: center; 
+	transition:background 1s;
+	transition:color 2s;
+}
 #S{
 	color:#21618C  ;
 	background:#AED6F1;
@@ -121,6 +132,12 @@ border:2px solid black;
 	color:#76448A;
 	background: #EBDEF0;	
 }
+#Ti{
+	color:#5F6A6A;
+	background: #D7DBDD;
+}
+
+
 
 .Saturday:hover{
 	color:#AED6F1  ;
@@ -146,5 +163,9 @@ border:2px solid black;
 .Thrusday:hover{
 	color:#EBDEF0 ;
 	background: #AF7AC5    ;
+}
+.time:hover{
+	color:#BFC9CA;
+	background:#5F6A6A;
 }
 
