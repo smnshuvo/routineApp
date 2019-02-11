@@ -23,6 +23,10 @@
 
     $('.validate-form').on('submit',function(){
         var check = true;
+		
+		if(input[0] == "a"){
+			alert("Fault");
+		}
 
         for(var i=0; i<input.length; i++) {
             if(validate(input[i]) == false){
